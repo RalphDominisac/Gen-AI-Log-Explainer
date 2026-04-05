@@ -1,0 +1,77 @@
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# 📦 Virtual Environments
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# 🔐 Environment Variables / Secrets
+# =========================
+.env
+.env.*
+*.env
+*.key
+*.pem
+
+# =========================
+# 🗄️ Database / Local Files
+# =========================
+*.db
+*.sqlite3
+
+# =========================
+# 🧪 Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# 🧰 IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# 📁 Logs
+# =========================
+*.log
+
+# =========================
+# ☁️ Cloud / Deployment
+# =========================
+.gcloud/
+*.json  # ⚠️ careful: only if not needed (service accounts)
+# If you use service account JSON locally:
+# keep it ignored but DO NOT delete from your machine
+
+# =========================
+# 🐳 Docker (optional)
+# =========================
+*.tar
+
+# =========================
+# 📸 Assets (optional control)
+# =========================
+# Uncomment if you don't want large files tracked
+# *.gif
+# *.mp4
+
+# =========================
+# 🧠 Streamlit
+# =========================
+.streamlit/secrets.toml
+.streamlit/config.toml
