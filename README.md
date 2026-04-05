@@ -150,6 +150,7 @@ To confirm that log analyses are successfully stored in your Cloud SQL database,
 
 ```sql
 SELECT * FROM logs ORDER BY created_at DESC;
+```
 
 ---
 
