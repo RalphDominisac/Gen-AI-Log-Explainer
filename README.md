@@ -1,4 +1,4 @@
-# 🧠 AI Log Explainer (Cloud-Native DevOps AI Tool)
+# 🧠 AI Log Analyzer (Cloud-Native Log Analyzer Tool)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
 ![Framework](https://img.shields.io/badge/Framework-Streamlit-red?style=for-the-badge&logo=streamlit)
 ![AI](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-orange?style=for-the-badge&logo=google)
