@@ -15,8 +15,6 @@ An AI-powered, cloud-native log analysis system that transforms raw, unstructure
 
 ![Demo GIF](assets/demo.gif)
 
-> _(Replace with your actual demo GIF)_
-
 ---
 
 ## 🚀 Problem Statement
@@ -51,9 +49,34 @@ AI Log Explainer is a **single-purpose AI agent** that:
 
 ## 🏗️ Architecture
 
-```
-User → Streamlit (Cloud Run) → Gemini API → Cloud SQL → Storage
-```
+![Architecture Diagram](assets/architecture.png)
+
+The system follows a structured, cloud-native pipeline for analyzing logs:
+
+1. **User Input (Analyze Logs)**  
+   The user pastes raw logs into the Streamlit UI.
+
+2. **Validation & Sanitization**  
+   Logs are validated, cleaned, and size-limited to ensure safe and efficient processing.
+
+3. **AI Inference (Gemini)**  
+   Valid logs are sent to the Gemini AI model, which analyzes them using structured prompting.
+
+4. **Post-Processing**  
+   The response is refined with rule-based logic (e.g., severity classification and fallback handling).
+
+5. **Render Results**  
+   The system displays structured insights:
+   - Summary  
+   - Root Cause  
+   - Suggested Fix  
+   - Severity  
+
+6. **History Flow (Optional Path)**  
+   - Users can view previous analyses stored in Cloud SQL  
+   - New analysis results can be saved to the database  
+
+This workflow ensures **reliable, structured, and scalable AI-driven log analysis**, aligning with real-world DevOps practices.
 
 ---
 
@@ -143,19 +166,19 @@ HIGH
 
 ### 🖥 Main Interface
 
-![Main UI](assets/screenshots/main-ui.png)
+![Main UI](assets/main-ui.png)
 
 ### 🔍 Analysis Results
 
-![Results](assets/screenshots/results.png)
+![Results](assets/analysis-result.png)
 
 ### 🛠 Suggested Fix
 
-![Fix](assets/screenshots/fix.png)
+![Fix](assets/suggested-fix.png)
 
 ### 📊 History Feature
 
-![History](assets/screenshots/history.png)
+![History](assets/history-view.png)
 
 ---
 
