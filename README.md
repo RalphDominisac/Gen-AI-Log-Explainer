@@ -1,4 +1,11 @@
 # 🧠 AI Log Explainer (Cloud-Native DevOps AI Tool)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![Framework](https://img.shields.io/badge/Framework-Streamlit-red?style=for-the-badge&logo=streamlit)
+![AI](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-orange?style=for-the-badge&logo=google)
+![Cloud](https://img.shields.io/badge/Cloud-Google%20Cloud-blue?style=for-the-badge&logo=googlecloud)
+![Deployment](https://img.shields.io/badge/Deploy-Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud)
+![Database](https://img.shields.io/badge/Database-Cloud%20SQL-lightblue?style=for-the-badge&logo=mysql)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 An AI-powered, cloud-native log analysis system that transforms raw, unstructured logs into **actionable insights** using **Google Gemini AI**.
 
