@@ -142,6 +142,17 @@ gcloud run deploy ai-log-explainer --source . --region us-central1 --allow-unaut
 
 ---
 
+## 🗄️ Verify Saved Logs (Cloud SQL)
+
+![Cloud SQL Query](assets/cloud-sql-query.png)
+
+To confirm that log analyses are successfully stored in your Cloud SQL database, you can run the following query in the Cloud SQL Query Editor:
+
+```sql
+SELECT * FROM logs ORDER BY created_at DESC;
+
+---
+
 ## 📊 Example Output
 
 ```
