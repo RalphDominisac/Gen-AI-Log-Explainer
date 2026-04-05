@@ -211,4 +211,4 @@ Ralph Henry L. Dominisac
 
 ## 📄 License
 
-Educational use only.
+MIT LICENSE.
