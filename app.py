@@ -156,12 +156,12 @@ if analyze_clicked:
         st.subheader("🧾 Summary")
         st.write(parsed["Summary"] or "No significant issues detected.")
 
-        st.divider()  # ✅ ADD HERE
+        st.divider()  
 
         st.subheader("🧠 Root Cause")
         st.write(parsed["Root Cause"])
 
-        st.divider()  # ✅ ADD HERE
+        st.divider()  
 
         st.subheader("🛠 Suggested Fix")
 
@@ -232,19 +232,19 @@ if history_clicked:
         st.subheader("🧾 Summary")
         st.write(parsed["Summary"] or "No significant issues detected.")
 
-        st.divider()  # ✅ ADD HERE
+        st.divider()  # 
 
         st.subheader("🧠 Root Cause")
         st.write(parsed["Root Cause"])
 
-        st.divider()  # ✅ ADD HERE
+        st.divider()  # 
 
         st.subheader("🛠 Suggested Fix")
 
 
         fix_text = parsed["Suggested Fix"]
 
-        # Try splitting by numbered steps
+        # Splitting by numbered steps
         steps = re.split(r'\d+\.\s+', fix_text)
         steps = [s.strip() for s in steps if s.strip()]
 
@@ -261,7 +261,7 @@ if history_clicked:
                 st.markdown(f"**🔧 Step {i}**")
                 st.write(step)
 
-            if i < len(steps):  # ✅ prevents extra divider
+            if i < len(steps):  # Prevents extra divider
                 st.markdown("---")
 
 
