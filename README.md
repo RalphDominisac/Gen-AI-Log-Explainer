@@ -1,4 +1,4 @@
-# 🧠 AI Log Explainer (Cloud-Native Log Analyzer Tool)
+# AI Log Explainer (Cloud-Native Log Analyzer Tool)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
 ![Framework](https://img.shields.io/badge/Framework-Streamlit-red?style=for-the-badge&logo=streamlit)
 ![AI](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-orange?style=for-the-badge&logo=google)
@@ -11,13 +11,13 @@ An AI-powered, cloud-native log analysis system that transforms raw, unstructure
 
 ---
 
-## 🎬 Demo
+## Demo
 
 ![Demo GIF](assets/demo.gif)
 
 ---
 
-## 🚀 Problem Statement
+## Problem Statement
 
 Modern systems generate massive volumes of logs that are:
 
@@ -30,7 +30,7 @@ This project solves that by automatically interpreting logs and generating struc
 
 ---
 
-## 💡 Solution
+## Solution
 
 AI Log Explainer is a **single-purpose AI agent** that:
 
@@ -38,7 +38,7 @@ AI Log Explainer is a **single-purpose AI agent** that:
 - Extracts insights
 - Outputs structured results
 
-### 🔍 Output Format
+### Output Format
 
 - Summary
 - Root Cause
@@ -47,7 +47,7 @@ AI Log Explainer is a **single-purpose AI agent** that:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ![Architecture Diagram](assets/architecture.png)
 
@@ -80,7 +80,7 @@ This workflow ensures **reliable, structured, and scalable AI-driven log analysi
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Frontend:** Streamlit
 - **Backend:** Python
@@ -90,7 +90,7 @@ This workflow ensures **reliable, structured, and scalable AI-driven log analysi
 
 ---
 
-## 🔥 Features
+## Features
 
 - AI-powered log summarization
 - Root cause detection
@@ -102,7 +102,7 @@ This workflow ensures **reliable, structured, and scalable AI-driven log analysi
 
 ---
 
-## ⚡ Local Setup
+## Local Setup
 
 ```bash
 python -m venv venv
@@ -123,7 +123,7 @@ DB_NAME=your_db_name
 
 ---
 
-## ☁️ Deploy (Cloud Run)
+## Deploy (Cloud Run)
 
 ```bash
 gcloud run deploy ai-log-explainer --source . --region us-central1 --allow-unauthenticated --set-env-vars GEMINI_API_KEY="$GEMINI_API_KEY",DB_USER="$DB_USER",DB_PASSWORD="$DB_PASSWORD",DB_HOST="$DB_HOST",DB_NAME="$DB_NAME"
@@ -133,7 +133,7 @@ gcloud run deploy ai-log-explainer --source . --region us-central1 --allow-unaut
 
 ---
 
-## 🧪 Usage
+## Usage
 
 1. Paste logs
 2. Click Analyze
@@ -142,7 +142,7 @@ gcloud run deploy ai-log-explainer --source . --region us-central1 --allow-unaut
 
 ---
 
-## 🗄️ Verify Saved Logs (Cloud SQL)
+## Verify Saved Logs (Cloud SQL)
 
 ![Cloud SQL Query](assets/cloud-sql-query.png)
 
@@ -154,7 +154,7 @@ SELECT * FROM logs ORDER BY created_at DESC;
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 ```
 Summary:
@@ -174,27 +174,27 @@ HIGH
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🖥 Main Interface
+### Main Interface
 
 ![Main UI](assets/main-ui.png)
 
-### 🔍 Analysis Results
+### Analysis Results
 
 ![Results](assets/analysis-result.png)
 
-### 🛠 Suggested Fix
+### Suggested Fix
 
 ![Fix](assets/suggested-fix.png)
 
-### 📊 History Feature
+### History Feature
 
 ![History](assets/history-view.png)
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Auth system
 - API endpoints
@@ -203,12 +203,12 @@ HIGH
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Ralph Henry L. Dominisac
 
 ---
 
-## 📄 License
+## License
 
 MIT LICENSE.
